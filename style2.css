@@ -1,0 +1,186 @@
+body{
+	/*font-family: "Roboto",Arial,sans-serif;*/
+	font-family: 'Quicksand', sans-serif;
+	padding-bottom: 50px;
+	color: white;
+
+}
+.first-box{
+	border-radius: 1px;
+	display: flex;
+	justify-content: center;
+	height: 20vh;
+	width: 96%;
+	margin: 3px;
+	background-color:  #295072b5;
+		font-size: 11px;
+}
+.img-png{
+	   height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 5%;
+    left: 18%;
+ }
+
+.first-box > div{
+	padding: 5px 17px;
+}
+h3{
+	position: absolute;
+    top: 7%;
+    left: 2%;
+	font-size: 17px;
+	margin: 3px 3px 10px 3px;
+	
+}
+
+.one > p{
+
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	margin: 2px;
+}
+.degree{
+	position: absolute;
+    top: 3%;
+    left: 10%;
+    font-size: 35px;
+
+}	
+	
+.new{
+	position: absolute;
+	left:2%;
+	top: 13%;
+
+}
+.new-{
+	position: absolute;
+	left: 2%;
+	top: 15%;
+}
+.humid{
+
+	position: absolute;
+	left: 13%;
+	top:10%;
+}
+.min{
+	position: absolute;
+	top: 13%;
+	left: 17%;
+}
+.max{
+	position: absolute;
+	top: 15%;
+	left: 17%;
+}
+.date{
+	    position: absolute;
+    top: 4%;
+    left: 2%;
+
+}
+.img{
+	display: flex;
+	justify-content: center;
+}
+.second-box{
+	border-radius: 1px;
+	display: flex;
+	justify-content: center;
+	height: 15vh;
+	width: 96%;
+	margin: 2px;
+	background-color:#295072b5;
+	font-size: 11px;
+}
+.sec-img{
+	height: 40%;
+	width: 30%;
+
+}
+.sec{
+	height: 30%;
+	width: 15%;
+}
+.centre p{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+
+.bar{
+    width: 8px;
+    border-radius: 25px;
+    background: linear-gradient(#00e5ff, #9ef5ff);
+ }
+
+ .third-box{
+	 
+	 width: 94%;
+	 padding: 5px;
+	 margin: 5px;
+	 font-size: 11px;
+	 height: 6vh;
+	
+	 
+ }
+
+ .third-box .top-container {
+ 	
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+
+.bars-container {
+	width: 92%;
+	height: 150px;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	height: 45vh;
+	padding: 10px;
+}
+.outlines{
+	
+	display: flex;
+	flex-direction: column;
+	height: 80vh;
+	width: 23%;
+	align-items: center;
+	padding: 2px 2px;
+	background-image: url(cloudd.jpg);
+	background-size: cover;
+
+}
+#abc{
+	height: 46vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	width: 97%;
+	border-radius: 1px;
+	margin: 3px 2px 0px 3px;
+	background-color: #295072b5;
+}
+.border{
+	border: 1px solid white;
+	border-radius: 4px;
+	padding: 3px 4px;
+	text-decoration: underline;
+
+}
+.border ~p{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
